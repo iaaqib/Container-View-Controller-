@@ -14,6 +14,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -23,5 +24,33 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)first:(id)sender {
+  //  self.container = [[ContainerViewController alloc]init];
+    [self.container segueIdentifierReceivedFromParent:@"buttonOne"];
+    
+    
+}
+- (IBAction)second:(id)sender {
+   // self.container = [[ContainerViewController alloc]init];
+    [self.container segueIdentifierReceivedFromParent:@"buttonTwo"];
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+   
+    //  vc = [[UIViewController alloc]init];
+    // Make sure your segue name in storyboard is the same as this line
+    
+    if ([[segue identifier] isEqual: @"container"]){
+    
+        self.container = (ContainerViewController *)[segue destinationViewController];
+        
+       
+       
+      
+        
+    }
+}
+
+
+
 
 @end

@@ -13,6 +13,8 @@
 		7B18E6201C93301C00DF97E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B18E61E1C93301C00DF97E8 /* Main.storyboard */; };
 		7B18E6221C93301C00DF97E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B18E6211C93301C00DF97E8 /* Assets.xcassets */; };
 		7B18E6251C93301C00DF97E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B18E6231C93301C00DF97E8 /* LaunchScreen.storyboard */; };
+		7B18E62E1C9331BD00DF97E8 /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E62D1C9331BD00DF97E8 /* EmptySegue.m */; };
+		7B18E6311C9334EE00DF97E8 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E6301C9334EE00DF97E8 /* ContainerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7B18E6211C93301C00DF97E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B18E6241C93301C00DF97E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B18E6261C93301C00DF97E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B18E62C1C9331BD00DF97E8 /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
+		7B18E62D1C9331BD00DF97E8 /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
+		7B18E62F1C9334EE00DF97E8 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		7B18E6301C9334EE00DF97E8 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,15 @@
 				7B18E6191C93301C00DF97E8 /* AppDelegate.m */,
 				7B18E61B1C93301C00DF97E8 /* ViewController.h */,
 				7B18E61C1C93301C00DF97E8 /* ViewController.m */,
+				7B18E62F1C9334EE00DF97E8 /* ContainerViewController.h */,
+				7B18E6301C9334EE00DF97E8 /* ContainerViewController.m */,
 				7B18E61E1C93301C00DF97E8 /* Main.storyboard */,
 				7B18E6211C93301C00DF97E8 /* Assets.xcassets */,
 				7B18E6231C93301C00DF97E8 /* LaunchScreen.storyboard */,
 				7B18E6261C93301C00DF97E8 /* Info.plist */,
 				7B18E6151C93301C00DF97E8 /* Supporting Files */,
+				7B18E62C1C9331BD00DF97E8 /* EmptySegue.h */,
+				7B18E62D1C9331BD00DF97E8 /* EmptySegue.m */,
 			);
 			path = "Container View";
 			sourceTree = "<group>";
@@ -152,6 +162,8 @@
 				7B18E61D1C93301C00DF97E8 /* ViewController.m in Sources */,
 				7B18E61A1C93301C00DF97E8 /* AppDelegate.m in Sources */,
 				7B18E6171C93301C00DF97E8 /* main.m in Sources */,
+				7B18E62E1C9331BD00DF97E8 /* EmptySegue.m in Sources */,
+				7B18E6311C9334EE00DF97E8 /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

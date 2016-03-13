@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ContainerViewController.h"
 
 @interface ViewController : UIViewController
-
-
+@property (weak, nonatomic) IBOutlet UIButton *second;
+@property (weak, nonatomic) IBOutlet UIButton *first;
+@property ContainerViewController *container;
 @end
 
